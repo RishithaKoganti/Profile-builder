@@ -4,7 +4,7 @@
     font-family: "Arimo", sans-serif;
 }
 body{
-    background-color: lightslategray;
+    background-color: rgb(189, 152, 201);
 }
 h1{
     text-align: center;
@@ -14,11 +14,12 @@ h3{
     margin-left: 2rem;
 }
 .formbox{
-    height: 50%;
+    height: 65%;
     width: 95%;
     border: 2px solid black;
     margin: auto;
     background-color: white;
+    margin-bottom: 3rem;
 }
 .formbox input{
     margin-bottom: 0.85rem;
@@ -33,9 +34,14 @@ h3{
     margin-left: 3rem;
 }
 .formbox button{
-    margin-left: 50%;
+    margin-left: 45%;
     height: 2rem;
     width: 12rem;
     font-size: 1.5rem;
-    background-color: lightslategray;
+    background-color: rgb(189, 152, 201);
+    margin-bottom: 2rem;
+}
+label b{
+    color: red;
+    font-size: 1rem;
 }
